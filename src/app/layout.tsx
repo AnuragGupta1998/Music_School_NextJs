@@ -1,3 +1,5 @@
+
+"use-client";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -16,15 +18,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       
-      <body className={inter.className}>
+      <body className={inter.className}> 
 
-         <h2 className="text-center font-bold bg-green-400">NavBar of home page </h2>
-         <Navbar />
-
-         {children}
+        <div className="relative w-full flex items-center justify-center bg-white dark:bg-cyan-200">
+          <Navbar />
+        </div>  
         
+        {children} 
       </body>
     </html>
   );

@@ -1,6 +1,24 @@
+import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
+import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/Instructors";
+import MusicSchoolTestimonialCards from "@/components/TestimonialCards";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
+import WhyChooseUs from "@/components/WhyChooseUs";
+
 
 export default function Home() {
   return (
-    <h1 className="text-center bg-red-300 font-bold p-6">Home Page of Application</h1>
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] flex flex-col relative">
+      
+      <HeroSection /> 
+      <FeaturedCourses />
+      <WhyChooseUs />
+      <MusicSchoolTestimonialCards />
+      <UpcomingWebinars />
+      <Instructors />
+      <Footer />
+
+    </main>
   );
 }
