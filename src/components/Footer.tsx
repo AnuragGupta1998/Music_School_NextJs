@@ -27,7 +27,7 @@ function Footer() {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/about"
                                 className="hover:text-white transition-colors duration-300"
                             >
                                 About
@@ -62,16 +62,25 @@ function Footer() {
                             Facebook
                         </a>
                         <a
-                            href="#"
+                            href="https://x.com/anurag6967"
+                            target='_blank'
                             className="hover:text-white transition-colors duration-300"
                         >
                             Twitter
                         </a>
                         <a
                             href="#"
+                            target='_blank'
                             className="hover:text-white transition-colors duration-300"
                         >
                             Instagram
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/anurag-gupta-7a7967147/"
+                            target='_blank'
+                            className="hover:text-white transition-colors duration-300"
+                        >
+                            Linkedin
                         </a>
                     </div>
                 </div> 
@@ -79,7 +88,7 @@ function Footer() {
                 <div className='text-start'>
                     <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
                     <p>New Delhi, India</p>
-                    <p>Delhi 10001</p>
+                    <p>Delhi 110086</p>
                     <p>Email: info@musicschool.com</p>
                     <p>Phone: (123) 456-7890</p>
                 </div>
